@@ -6,12 +6,12 @@
         
         .topnav {
           overflow: hidden;
-          background-color:purple;
+          background-color: red;
         }
         
         .topnav a {
           float: left;
-          color:white;
+          color:yellow;
           text-align: center;
           padding: 14px 16px;
           text-decoration: none;
@@ -19,21 +19,21 @@
         }
         
         .topnav a:hover {
-          background-color: blue;
-          color:white;
+          background-color:wheat;
+          color:black;
         }
         
         .topnav a.active {
-          background-color:orange;
-          color:black;
+          background-color:blue;
+          color:white;
         }
         .topnav a.active:hover{
-          background-color:blueviolet;
-          color:yellow; 
+          background-color:yellowgreen;
+          color:black; 
         }
        
        .centered{
-         color: purple;
+         color:yellow;
          text-align: center;
          font-size: 90px;
        }
@@ -77,7 +77,7 @@ width:100%;
   transform: translate(-50%, -50%);
 }
 
-        /* signup form starts from this page */
+        /* this page starts from here */
       
 
 
@@ -116,8 +116,7 @@ hr {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
-  font-size: 30px
+  width: 100%; 
 }
 
 .registerbtn:hover {
@@ -126,11 +125,14 @@ hr {
 
 /* Add a grey text color to links */
 a {
-  color: white;
+  color: wheat;
 }
 
 /* Set a grey background color and center the text of the "sign in" section */
 .signin {
-  background-color: #f1f1f1;
+  background-color: black;
   text-align: center;
+  height: 40px;
+  padding-top:1px ;
+  padding-bottom: 3px; 
 }
